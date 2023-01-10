@@ -1,0 +1,173 @@
+body{
+    background: url("david-marcu-78A265wPiO4-unsplash\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.container{
+    width: 496px;
+    height: 950px;
+    background: rgba(233, 233, 233, 0.25);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 340px;
+    height: 1150px;
+}
+.btnAuth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 36px;
+    border: 1px solid #153416;
+    border-radius: 30px;
+}
+.btnAuth>button{
+    margin-top: 60px;
+    cursor: pointer;
+    width: 49%;
+    height: 32px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btnActive{
+    background:#153416;
+}
+.btnNoBG{
+    background: none;
+}
+.authTitle{
+    margin-top:80px ;
+    margin-bottom:29px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.inputFora{
+    display: block;
+    height: 44px;
+    width: 340px;
+    background: #b6b6b6;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+.inputFora::placeholder{
+    padding-left: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.secondBtns{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rememberMeBlock{
+    display: flex;
+    align-items: center;
+}
+.rememberMeBlock>label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #1e4920;
+}
+.singInBtn{
+    margin-top: 30px;
+    cursor: pointer;
+    width: 100% ;
+    height:44px ;
+    background: #153416;
+    border-radius: 30px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    text-align: center;
+
+    color: #FFFFFF;   
+}
+.createAccount{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.createAccount>p{
+    margin-right: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    text-align: center;
+
+    color: #153416;
+}
+.createAccount>a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+   
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+.singOherText{
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px; 
+
+    text-align: center;
+
+    color: #153416;
+}
+.socialContainer{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.socialWrapper{
+    width: 124px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialWrapper>svg{
+    width: 24px;
+    height: 24px;
+}
